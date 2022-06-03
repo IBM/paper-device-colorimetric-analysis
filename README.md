@@ -16,7 +16,7 @@ Available at: TBD
 
 and the corresponding dataset repository archived at: 
 
-https://doi.org/10.24435/materialscloud:56-6p
+https://archive.materialscloud.org/record/2022.70
 
 <!-- A more detailed Usage or detailed explaination of the repository here -->
 ## Usage
@@ -28,12 +28,13 @@ In sequencial order of application:
 #### *Calibration Feature Extraction.ipynb*
 
 This notebook extract the colorimetric information from the images captured of paper devices, and saving the RGB values in a csv file.
-This notebook uses the images in the repository: https://doi.org/10.24435/materialscloud:56-6p
+This notebook uses the images in the repository: https://doi.org/10.24435/materialscloud:hr-kn
 
 #### *Colorimetric Model Training.ipynb*
 
 This notebook loads the csv file with RGB data per paper device, after adding a column with the 'Class' of that data based on the pH value of the sample applied to the paper device, and trains two openCV Logistic Regression models that are saved into XML files for application with a mobile device.  
-This notebook uses the csv files with RGB data collected for two pH indicators and available at https://doi.org/10.24435/materialscloud:56-6p
+This notebook uses the csv files with RGB data collected for two pH indicators and available at https://doi.org/10.24435/materialscloud:hr-kn
+
 
 #### *AgroPad Analysis Demo.ipynb*
 
