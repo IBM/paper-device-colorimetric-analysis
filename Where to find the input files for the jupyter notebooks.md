@@ -10,7 +10,9 @@ The algorithms for processing the field test data acquired with the paper-based 
 
 [uIPL_2022_v2.py ](https://github.com/IBM/paper-device-colorimetric-analysis/blob/master/uIPL_2022_v2.py)→ Found in the github repository on the root directory
 
-[Calibration Images Containing both BcG and BcP Spots](https://archive.materialscloud.org/record/file?filename=CalibrationImages.zip&record_id=1331)→ Found in "CalibrationImages.zip" on the data repository 
+[Calibration Images Containing both BcG and BcP Spots](https://archive.materialscloud.org/record/file?filename=CalibrationImages.zip&record_id=1331)→ Found in "CalibrationImages.zip" on the data repository*
+
+* As explained in the jupyter notebook, the same pictures contain both colorimetric indicators. To process the images, it will be necessary to crop the images to process each indicator separately.
 
 
 [Lab-Reference.bmp ](https://github.com/IBM/paper-device-colorimetric-analysis/blob/master/Illumination_references/Lab-Referece.bmp)→ Found in the github repository on the illumination_references folder
