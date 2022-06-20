@@ -12,7 +12,7 @@ The algorithms for processing the field test data acquired with the paper-based 
 
 [Calibration Images Containing both BcG and BcP Spots](https://archive.materialscloud.org/record/file?filename=CalibrationImages.zip&record_id=1331)→ Found in "CalibrationImages.zip" on the data repository
 
-* As explained in the jupyter notebook, the same pictures contain both colorimetric indicators. To process the images, it will be necessary to crop the before processing each indicator separately. The notebook already contains the crop range information for processing the files.
+* As explained in the jupyter notebook, the same pictures contain both colorimetric indicators. To process the images, it will be necessary to crop them before processing each indicator separately. The notebook already contains the crop range information for processing the files.
 
 
 [Lab-Reference.bmp ](https://github.com/IBM/paper-device-colorimetric-analysis/blob/master/Illumination_references/Lab-Referece.bmp)→ Found in the github repository on the illumination_references folder
