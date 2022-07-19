@@ -28,7 +28,7 @@ In sequencial order of application:
 #### *Calibration Feature Extraction.ipynb*
 
 This notebook extract the colorimetric information from the images captured of paper devices, and saving the RGB values in a csv file.
-This notebook uses the images in the repository: https://doi.org/10.24435/materialscloud:hr-kn
+This notebook uses the images in the repository: https://doi.org/10.24435/materialscloud:vt-4t
 
 #### *Colorimetric Model Training.ipynb*
 
